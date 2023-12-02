@@ -11,7 +11,6 @@ The retail dataset provided contains valuable information about a retail company
 Table Explanations:-
 
 Offices Table -
-
 This table stores information about the different offices of the retail company, including the office code, city, phone number, address, state, country, postal code, and territory. Each office is uniquely identified by its office code. Represents different retail offices or stores of the business. Each office is identified by a unique office code(ID) and may contain attributes like office name, location, and contact information.
 Employees Table-
 The employees table holds data about the company's employees. It includes fields such as employee number (a unique identifier for each employee), last name, first name, extension, email address, office code (identifying the office where the employee works), reportsTo (the employee number of the person to whom the employee reports), and job title. Stores data about employees working in the retail business. Each employee is identified by a unique employee number (ID) and contains attributes like employee name, job title, and contact details.
