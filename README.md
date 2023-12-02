@@ -13,6 +13,7 @@ Table Explanations:-
 Offices Table -
 
 This table stores information about the different offices of the retail company, including the office code, city, phone number, address, state, country, postal code, and territory. Each office is uniquely identified by its office code. Represents different retail offices or stores of the business. Each office is identified by a unique office code(ID) and may contain attributes like office name, location, and contact information.
+
 Employees Table-
 
 The employees table holds data about the company's employees. It includes fields such as employee number (a unique identifier for each employee), last name, first name, extension, email address, office code (identifying the office where the employee works), reportsTo (the employee number of the person to whom the employee reports), and job title. Stores data about employees working in the retail business. Each employee is identified by a unique employee number (ID) and contains attributes like employee name, job title, and contact details.
@@ -20,6 +21,7 @@ The employees table holds data about the company's employees. It includes fields
 Customers Table-
 
 This table contains information about the retail company's customers. It includes fields like customer number (a unique identifier for each customer), customer name, contact last name, contact first name, phone number, address, city, state, postal code, country, sales representative employee number (identifying the employee responsible for the customer), and credit limit. Stores information about individual customers who make purchases from the retail business. Each customer is identified by a unique customer number (ID) and contains attributes like customer name, contact details, and demographic information.
+
 Products Table-
 
 The products table stores details about the various products sold by the retail company. It includes information such as the product code (a unique identifier for each product), product name, product line (categorization of the product), product scale, product vendor, product description, quantity in stock, buy price, and Manufacturer's Suggested Retail Price (MSRP). Contains details about the products offered by the retail business. Each product is identified by a unique product code (ID) and includes attributes such as product name, description, and price.
